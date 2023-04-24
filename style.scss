@@ -241,6 +241,61 @@ body {
 
 // Inicio Recetas Dulces
 
+body{
+
+    .recetaD{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        .card1{
+            min-height: 500px;
+            width: 100%;
+            background-color: #A4133C;
+            border: 5px solid #FFB3C1;
+            animation: pulse;
+            animation-duration: 2s;
+        }
+
+        .card__Img1{
+            background-image: url(../cocinando/asset/img/img4.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+            
+        }
+
+        .card__Img2{
+            background-image: url(../cocinando/asset/img/img5.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+        }
+
+        .card__Title{
+            font-family: $fuenteotroTitulo;
+            text-align: center;
+            font-size: 35px;
+            color: #FFCCD5;
+        }
+
+        h4{
+            font-family: $fuenteotroTitulo;
+            color: #FFCCD5;
+            font-size: 25px;
+
+            li{
+                font-family: $fuenteParrafo;
+                color: black;
+                font-size: 20px;
+            }
+        }
+        
+    }
+
+    
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
@@ -303,62 +358,64 @@ body {
         }
     }
 
+    body {
+
+        .inicioA {
+            padding: 50px;
+    
+            .tituloAp {
+                font-size: 60px;
+            }
+    
+            .tituloA {
+                font-size: 40px;
+            }
+        }
+    
+        .parte1Aprende {
+    
+            .img3 {
+                width: 110%;
+                padding: 25px;
+                position:static;
+            }
+    
+            .pApren {
+                font-size: 25px;
+                animation: pulse;
+                animation-duration: 5s;
+            }
+        }
+    
+        .parte2Aprende {
+            padding: 30px;
+    
+            li {
+                font-size: 30px;
+            }
+        }
+    
+        .grid-container {
+    
+            .mito {
+                font-size: 30px;
+            }
+    
+            p {
+                font-size: 20px;
+            }
+        }
+    
+        footer {
+            .pieAprende {
+                font-size: 25px;
+            }
+        }
+    }
+
 }
 
-body {
 
-    .inicioA {
-        padding: 50px;
-
-        .tituloAp {
-            font-size: 60px;
-        }
-
-        .tituloA {
-            font-size: 40px;
-        }
-    }
-
-    .parte1Aprende {
-
-        .img3 {
-            width: 110%;
-            padding: 25px;
-            position:static;
-        }
-
-        .pApren {
-            font-size: 25px;
-            animation: pulse;
-            animation-duration: 5s;
-        }
-    }
-
-    .parte2Aprende {
-        padding: 30px;
-
-        li {
-            font-size: 30px;
-        }
-    }
-
-    .grid-container {
-
-        .mito {
-            font-size: 30px;
-        }
-
-        p {
-            font-size: 20px;
-        }
-    }
-
-    footer {
-        .pieAprende {
-            font-size: 25px;
-        }
-    }
-}
 
 
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
@@ -452,7 +509,7 @@ body {
         .parte2Aprende {
     
             li {
-                padding: 20px;
+                padding: auto;
                 font-size: 30px;
                 text-align:justify;
             }

@@ -184,6 +184,48 @@ body footer .pieAprende {
   font-size: 20px;
 }
 
+body .recetaD {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body .recetaD .card1 {
+  min-height: 500px;
+  width: 100%;
+  background-color: #A4133C;
+  border: 5px solid #FFB3C1;
+  animation: pulse;
+  animation-duration: 2s;
+}
+body .recetaD .card__Img1 {
+  background-image: url(../cocinando/asset/img/img4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+body .recetaD .card__Img2 {
+  background-image: url(../cocinando/asset/img/img5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+body .recetaD .card__Title {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 35px;
+  color: #FFCCD5;
+}
+body .recetaD h4 {
+  font-family: "Satisfy", cursive;
+  color: #FFCCD5;
+  font-size: 25px;
+}
+body .recetaD h4 li {
+  font-family: "M PLUS 1p", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
   body .navBar {
     font-size: 40px;
@@ -227,42 +269,41 @@ body footer .pieAprende {
   body footer i {
     font-size: 40px;
   }
+  body .inicioA {
+    padding: 50px;
+  }
+  body .inicioA .tituloAp {
+    font-size: 60px;
+  }
+  body .inicioA .tituloA {
+    font-size: 40px;
+  }
+  body .parte1Aprende .img3 {
+    width: 110%;
+    padding: 25px;
+    position: static;
+  }
+  body .parte1Aprende .pApren {
+    font-size: 25px;
+    animation: pulse;
+    animation-duration: 5s;
+  }
+  body .parte2Aprende {
+    padding: 30px;
+  }
+  body .parte2Aprende li {
+    font-size: 30px;
+  }
+  body .grid-container .mito {
+    font-size: 30px;
+  }
+  body .grid-container p {
+    font-size: 20px;
+  }
+  body footer .pieAprende {
+    font-size: 25px;
+  }
 }
-body .inicioA {
-  padding: 50px;
-}
-body .inicioA .tituloAp {
-  font-size: 60px;
-}
-body .inicioA .tituloA {
-  font-size: 40px;
-}
-body .parte1Aprende .img3 {
-  width: 110%;
-  padding: 25px;
-  position: static;
-}
-body .parte1Aprende .pApren {
-  font-size: 25px;
-  animation: pulse;
-  animation-duration: 5s;
-}
-body .parte2Aprende {
-  padding: 30px;
-}
-body .parte2Aprende li {
-  font-size: 30px;
-}
-body .grid-container .mito {
-  font-size: 30px;
-}
-body .grid-container p {
-  font-size: 20px;
-}
-body footer .pieAprende {
-  font-size: 25px;
-}
-
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
   body .navBar {
     font-size: 45px;
@@ -320,7 +361,7 @@ body footer .pieAprende {
     font-size: 30px;
   }
   body .parte2Aprende li {
-    padding: 20px;
+    padding: auto;
     font-size: 30px;
     text-align: justify;
   }
