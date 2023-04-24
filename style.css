@@ -198,13 +198,13 @@ body .recetaD .card1 {
   animation-duration: 5s;
 }
 body .recetaD .card__Img1 {
-  background-image: url(../cocinando/asset/img/img4.jpg);
+  background-image: url(./asset/img/img4.jpg);
   background-size: cover;
   background-position: center;
   height: 150px;
 }
 body .recetaD .card__Img2 {
-  background-image: url(../cocinando/asset/img/img5.jpg);
+  background-image: url(./asset/img/img5.jpg);
   background-size: cover;
   background-position: center;
   height: 150px;
@@ -423,6 +423,4 @@ body footer .pieDulce {
   body footer .pieDulce {
     font-size: 60px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
