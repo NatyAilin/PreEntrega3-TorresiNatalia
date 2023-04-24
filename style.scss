@@ -312,14 +312,32 @@ body{
             min-height: 400px;
             width: 100%;
             background-color: #A4133C;
-            border: 8px solid #FFB3C1;
-            animation: zoomIn;
-            animation-duration: 5s;
+            border: 15px solid #FFB3C1;
+            animation: tada;
+            animation-duration: 2s;
         }
 
-        .recetaImg5{
-            background-image: url(./asset/img/img6.jpg);
-            height: 500px;
+        .imgR7{
+            width: 100%;
+        }
+
+        .recetaTitle{
+            font-family: $fuenteotroTitulo;
+            text-align: center;
+            font-size: 35px;
+            color: #FFCCD5;
+        }
+        
+        h4{
+            font-family: $fuenteotroTitulo;
+            color: #FFCCD5;
+            font-size: 25px;
+        }
+
+        li{
+            font-family: $fuenteParrafo;
+                color: black;
+                font-size: 20px;
         }
         
     }
