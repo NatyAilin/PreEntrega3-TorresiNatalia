@@ -301,6 +301,36 @@ body{
 
 // Inicio Recetas Saladas
 
+body{
+
+    .recetaS{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-rows: 50px, 50px;
+
+        .receta{
+            min-height: 400px;
+            width: 100%;
+            background-color: #A4133C;
+            border: 8px solid #FFB3C1;
+            animation: zoomIn;
+            animation-duration: 5s;
+        }
+
+        .recetaImg5{
+            background-image: url(./asset/img/img6.jpg);
+            height: 500px;
+        }
+        
+    }
+
+    footer{
+        .pieDulce{
+            font-size: 35px;
+        }
+    }
+}
+
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
