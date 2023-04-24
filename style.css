@@ -193,15 +193,9 @@ body .recetaD .card1 {
   min-height: 500px;
   width: 100%;
   background-color: #A4133C;
-  border: 5px solid #FFB3C1;
-  animation: pulse;
-  animation-duration: 2s;
-}
-body .recetaD .card__Img1 {
-  background-image: url(../cocinando/asset/img/img4.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 150px;
+  border: 7px solid #FFB3C1;
+  animation: zoomIn;
+  animation-duration: 5s;
 }
 body .recetaD .card__Img2 {
   background-image: url(../cocinando/asset/img/img5.jpg);
@@ -224,6 +218,9 @@ body .recetaD h4 li {
   font-family: "M PLUS 1p", sans-serif;
   color: black;
   font-size: 20px;
+}
+body footer .pieDulce {
+  font-size: 35px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -303,6 +300,29 @@ body .recetaD h4 li {
   body footer .pieAprende {
     font-size: 25px;
   }
+  body .recetaD {
+    padding: 35px;
+  }
+  body .recetaD .card__Img1 {
+    height: 400px;
+    width: 100%;
+  }
+  body .recetaD .card__Img2 {
+    height: 500px;
+    width: 100%;
+  }
+  body .recetaD .card__Title {
+    font-size: 45px;
+  }
+  body .recetaD h4 {
+    font-size: 40px;
+  }
+  body .recetaD h4 li {
+    font-size: 35px;
+  }
+  body footer .pieDulce {
+    font-size: 45px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
   body .navBar {
@@ -373,6 +393,29 @@ body .recetaD h4 li {
   }
   body footer .pieAprende {
     font-size: 30px;
+  }
+  body .recetaD {
+    padding: 40px;
+  }
+  body .recetaD .card__Img1 {
+    height: 1000px;
+    width: 100%;
+  }
+  body .recetaD .card__Img2 {
+    height: 1000px;
+    width: 100%;
+  }
+  body .recetaD .card__Title {
+    font-size: 80px;
+  }
+  body .recetaD h4 {
+    font-size: 60px;
+  }
+  body .recetaD h4 li {
+    font-size: 45px;
+  }
+  body footer .pieDulce {
+    font-size: 60px;
   }
 }
 

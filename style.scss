@@ -252,17 +252,9 @@ body{
             min-height: 500px;
             width: 100%;
             background-color: #A4133C;
-            border: 5px solid #FFB3C1;
-            animation: pulse;
-            animation-duration: 2s;
-        }
-
-        .card__Img1{
-            background-image: url(../cocinando/asset/img/img4.jpg);
-            background-size: cover;
-            background-position: center;
-            height: 150px;
-            
+            border: 7px solid #FFB3C1;
+            animation: zoomIn;
+            animation-duration: 5s;
         }
 
         .card__Img2{
@@ -293,8 +285,14 @@ body{
         
     }
 
-    
+    footer{
+        .pieDulce{
+            font-size: 35px;
+        }
+    }
 }
+
+// Inicio Recetas Saladas
 
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
@@ -409,6 +407,42 @@ body{
         footer {
             .pieAprende {
                 font-size: 25px;
+            }
+        }
+    }
+
+    body{
+
+        .recetaD{
+            padding: 35px;
+    
+            .card__Img1{
+                height: 400px;
+                width: 100%;
+            }
+    
+            .card__Img2{
+                height: 500px;
+                width: 100%;
+            }
+    
+            .card__Title{
+                font-size: 45px;
+            }
+    
+            h4{
+                font-size: 40px;
+    
+                li{
+                    font-size: 35px;
+                }
+            }
+            
+        }
+
+        footer{
+            .pieDulce{
+                font-size: 45px;
             }
         }
     }
@@ -533,5 +567,40 @@ body{
         }
     }
     
+    body{
+
+        .recetaD{
+            padding: 40px;
+    
+            .card__Img1{
+                height: 1000px;
+                width: 100%;
+            }
+    
+            .card__Img2{
+                height: 1000px;
+                width: 100%;
+            }
+    
+            .card__Title{
+                font-size: 80px;
+            }
+    
+            h4{
+                font-size: 60px;
+    
+                li{
+                    font-size: 45px;
+                }
+            }
+            
+        }
+
+        footer{
+            .pieDulce{
+                font-size: 60px;
+            }
+        }
+    }
 
 }
