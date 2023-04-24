@@ -50,6 +50,10 @@ body {
         border-radius: 30%;
     }
 
+    .button{
+        color: #590D22;
+    }
+
     .nav-link{
         font-family: $fuenteotroTitulo;
         color: #FFCCD5;
@@ -146,7 +150,64 @@ body {
     
 }
 
+// Inicio Aprende 
 
+body{
+
+    .inicioA{
+        background-color: #800F2F;
+        padding: 40px;
+
+        .tituloAp{
+            font-family: $fuenteTitulo1;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .tituloA{
+            font-family: $fuenteotroTitulo;
+            font-size: 30px;
+            color: #FF8FA3;
+            text-align: left;
+        }
+
+        .flechaA{
+            color: #FFCCD5;
+            height: 50px;
+            width: 20px;
+        }
+    }
+
+    .parte1Aprende{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .img3{
+            width: 100%;
+            padding: auto;
+            position:relative;
+        }
+
+        .pApren{
+            font-family: $fuenteParrafo;
+            font-size: 17px;
+            color: black;
+            text-align: center;
+        }
+    }
+
+    .parte2Aprende{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, qfr));
+        grid-template-rows: repeat(2, 1fr);
+
+        .video1{
+            width: 50%;
+            height: auto;
+            float: right;
+        }
+    }
+}
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
     

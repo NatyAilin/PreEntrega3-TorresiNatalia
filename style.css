@@ -33,6 +33,9 @@ body .imgLogo {
   width: 80px;
   border-radius: 30%;
 }
+body .button {
+  color: #590D22;
+}
 body .nav-link {
   font-family: "Satisfy", cursive;
   color: #FFCCD5;
@@ -111,6 +114,52 @@ body footer i {
 }
 body footer i:hover {
   color: #590D22;
+}
+
+body .inicioA {
+  background-color: #800F2F;
+  padding: 40px;
+}
+body .inicioA .tituloAp {
+  font-family: "Alkatra", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+body .inicioA .tituloA {
+  font-family: "Satisfy", cursive;
+  font-size: 30px;
+  color: #FF8FA3;
+  text-align: left;
+}
+body .inicioA .flechaA {
+  color: #FFCCD5;
+  height: 50px;
+  width: 20px;
+}
+body .parte1Aprende {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+body .parte1Aprende .img3 {
+  width: 100%;
+  padding: auto;
+  position: relative;
+}
+body .parte1Aprende .pApren {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+}
+body .parte2Aprende {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, qfr));
+  grid-template-rows: repeat(2, 1fr);
+}
+body .parte2Aprende .video1 {
+  width: 50%;
+  height: auto;
+  float: right;
 }
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
