@@ -29,7 +29,7 @@ body {
         font-size: 30px;
     }
 
-    .navbar-brand{
+    .navbar-brand {
         color: #FF8FA3;
         font-size: 20px;
         text-align: center;
@@ -50,22 +50,22 @@ body {
         border-radius: 30%;
     }
 
-    .button{
+    .button {
         color: #590D22;
     }
 
-    .nav-link{
+    .nav-link {
         font-family: $fuenteotroTitulo;
         color: #FFCCD5;
         font-size: 30px;
     }
 
-    .inicio{
+    .inicio {
         margin: 10px;
         padding: auto;
     }
 
-    h1{
+    h1 {
         font-family: $fuenteTitulo1;
         color: #590D22;
         font-size: 30px;
@@ -74,7 +74,7 @@ body {
         animation-duration: 6s;
     }
 
-    h3{
+    h3 {
         font-family: $fuenteotroTitulo;
         color: #FFB3C1;
         font-size: 13px;
@@ -82,43 +82,43 @@ body {
         padding: 20px;
     }
 
-    .img1{
+    .img1 {
         animation: pulse;
         animation-duration: 8s;
         width: 100%;
     }
 
-    p{
+    p {
         font-family: $fuenteParrafo;
         font-size: 15px;
         text-align: center;
         padding: 20px;
     }
 
-    h2{
+    h2 {
         font-family: $fuenteotroTitulo;
         font-size: 18px;
         text-align: center;
         color: #FF8FA3;
     }
 
-    .img2{
+    .img2 {
         width: 60%;
         margin: auto;
         display: block;
         filter: sepia(100%);
     }
-    
-    .img2:hover{
+
+    .img2:hover {
         transform: scale(1.05);
         transition: all 0.9s;
         filter: sepia(0%);
     }
-    
-    .pApren{
+
+    .pApren {
         padding: 20px;
 
-        li{
+        li {
             padding: 20px;
             text-align: left;
             font-family: $fuenteParrafo;
@@ -127,68 +127,69 @@ body {
         }
     }
 
-    footer{
+    footer {
         background-color: #C9184A;
         text-align: center;
 
-        p{
+        p {
             font-family: $fuenteotroTitulo;
             color: #FFB3C1;
             font-size: 14px;
         }
 
-        i{
+        i {
             font-size: 30px;
             letter-spacing: 30px;
             color: #FF758F;
         }
 
-        i:hover{
+        i:hover {
             color: #590D22;
         }
+
     }
-    
+
 }
 
 // Inicio Aprende 
 
-body{
+body {
 
-    .inicioA{
+    .inicioA {
         background-color: #800F2F;
         padding: 40px;
 
-        .tituloAp{
+        .tituloAp {
             font-family: $fuenteTitulo1;
             font-size: 40px;
             text-align: center;
         }
 
-        .tituloA{
+        .tituloA {
             font-family: $fuenteotroTitulo;
             font-size: 30px;
             color: #FF8FA3;
             text-align: left;
         }
 
-        .flechaA{
+        .flechaA {
             color: #FFCCD5;
             height: 50px;
             width: 20px;
         }
     }
 
-    .parte1Aprende{
+    .parte1Aprende {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
 
-        .img3{
+        .img3 {
             width: 100%;
             padding: auto;
-            position:relative;
+            position: relative;
         }
 
-        .pApren{
+        .pApren {
             font-family: $fuenteParrafo;
             font-size: 17px;
             color: black;
@@ -196,31 +197,63 @@ body{
         }
     }
 
-    .parte2Aprende{
+    .parte2Aprende {
+        padding: 20px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, qfr));
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(150px, qfr));
 
-        .video1{
-            width: 50%;
+        .video1 {
+            width: 100%;
             height: auto;
             float: right;
+        }
+
+        li {
+            font-size: 25px;
+            text-align: center;
+            font-size: $fuenteParrafo;
+        }
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-rows: 30px, 30px, 30px, 30px, 30px;
+
+        .mito {
+            font-family: $fuenteotroTitulo;
+            font-size: 20px;
+        }
+
+        p {
+            font-family: $fuenteParrafo;
+            font-size: 15px;
+        }
+    }
+
+    footer {
+        .pieAprende {
+            font-family: $fuenteParrafo;
+            font-size: 20px;
         }
     }
 }
 
+// Inicio Recetas Dulces
+
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-    
-    body{
-        .navBar{
+
+    body {
+        .navBar {
             font-size: 40px;
         }
 
-        .navbar-brand{
+        .navbar-brand {
             font-size: 40px;
         }
 
-        .logoTitulo{
+        .logoTitulo {
             font-size: 45px;
         }
 
@@ -230,41 +263,41 @@ body{
             border-radius: 30%;
         }
 
-        .nav-link{
+        .nav-link {
             font-size: 35px;
         }
 
-        h1{
+        h1 {
             font-size: 65px;
         }
 
-        h3{
+        h3 {
             font-size: 35px;
         }
 
-        p{
+        p {
             font-size: 25px;
         }
 
-        h2{
+        h2 {
             font-size: 35px;
         }
 
-        .pApren{
+        .pApren {
             padding: 30px;
 
-            li{
+            li {
                 padding: 30px;
                 font-size: 25px;
             }
         }
 
-        footer{
-            p{
+        footer {
+            p {
                 font-size: 35px;
             }
 
-            i{
+            i {
                 font-size: 40px;
             }
         }
@@ -272,71 +305,175 @@ body{
 
 }
 
+body {
+
+    .inicioA {
+        padding: 50px;
+
+        .tituloAp {
+            font-size: 60px;
+        }
+
+        .tituloA {
+            font-size: 40px;
+        }
+    }
+
+    .parte1Aprende {
+
+        .img3 {
+            width: 110%;
+            padding: 25px;
+            position:static;
+        }
+
+        .pApren {
+            font-size: 25px;
+            animation: pulse;
+            animation-duration: 5s;
+        }
+    }
+
+    .parte2Aprende {
+        padding: 30px;
+
+        li {
+            font-size: 30px;
+        }
+    }
+
+    .grid-container {
+
+        .mito {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    footer {
+        .pieAprende {
+            font-size: 25px;
+        }
+    }
+}
+
+
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
-    
+
     body {
-    
+
         .navBar {
             font-size: 45px;
         }
-    
-        .navbar-brand{
+
+        .navbar-brand {
             font-size: 45px;
         }
-    
+
         .logoTitulo {
             font-size: 50px;
         }
-    
+
         .imgLogo {
             height: 90px;
             width: 150px;
             border-radius: 40%;
         }
-    
-        .nav-link{
+
+        .nav-link {
             font-size: 45px;
         }
-    
-        h1{
+
+        h1 {
             font-size: 95px;
             animation-duration: 8s;
         }
-    
-        h3{
+
+        h3 {
             font-size: 60px;
             padding: 50px;
         }
-    
-        p{
+
+        p {
             font-size: 45px;
             padding: 40px;
         }
-    
-        h2{
+
+        h2 {
             font-size: 60px;
         }
-        
-        .pApren{
+
+        .pApren {
             padding: 40px;
-    
-            li{
+
+            li {
                 padding: 40px;
                 font-size: 40px;
             }
         }
-    
-        footer{
-            p{
+
+        footer {
+            p {
                 font-size: 60px;
             }
-    
-            i{
+
+            i {
                 font-size: 50px;
             }
         }
-        
+
     }
 
-}
+    body {
 
+        .inicioA {
+    
+            .tituloAp {
+                font-size: 60px;
+            }
+    
+            .tituloA {
+                font-size: 50px;
+                text-align: right;
+            }
+    
+        }
+    
+        .parte1Aprende {
+    
+            .pApren {
+                font-size: 30px;
+            }
+        }
+    
+        .parte2Aprende {
+    
+            li {
+                font-size: 30px;
+                text-align:justify;
+            }
+        }
+    
+        .grid-container {
+    
+            .mito {
+                font-size: 35px;
+            }
+    
+            p {
+                font-size: 25px;
+            }
+        }
+    
+        footer {
+            .pieAprende {
+                font-size: 30px;
+            }
+        }
+    }
+    
+
+}
