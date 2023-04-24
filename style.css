@@ -197,8 +197,14 @@ body .recetaD .card1 {
   animation: zoomIn;
   animation-duration: 5s;
 }
-body .recetaD .card__Img2 {
+body .recetaD .card__Img1 {
   background-image: url(../cocinando/asset/img/img4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+body .recetaD .card__Img2 {
+  background-image: url(../cocinando/asset/img/img5.jpg);
   background-size: cover;
   background-position: center;
   height: 150px;
