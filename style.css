@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=M+PLUS+1p&family=Satisfy&display=swap");
+@import 'animate.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FF4D6D;
+}
+body .navBar {
+  background-color: #C9184A;
+  color: #FFF0F3;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 30px;
+}
+body .navbar-brand {
+  color: #FF8FA3;
+  font-size: 20px;
+  text-align: center;
+}
+body .logoTitulo {
+  color: #FFB3C1;
+  font-family: "Alkatra", cursive;
+  font-size: 30px;
+  text-shadow: 0 0 7px;
+  animation: heartBeat;
+  animation-duration: 5s;
+}
+body .imgLogo {
+  height: 60px;
+  width: 80px;
+  border-radius: 30%;
+}
+body .nav-link {
+  font-family: "Satisfy", cursive;
+  color: #FFCCD5;
+  font-size: 30px;
+}
+body .inicio {
+  margin: 10px;
+  padding: auto;
+}
+body h1 {
+  font-family: "Alkatra", cursive;
+  color: #590D22;
+  font-size: 30px;
+  text-align: center;
+  animation: shakeX;
+  animation-duration: 6s;
+}
+body h3 {
+  font-family: "Satisfy", cursive;
+  color: #FFB3C1;
+  font-size: 13px;
+  text-align: center;
+  padding: 20px;
+}
+body .img1 {
+  animation: pulse;
+  animation-duration: 8s;
+  width: 100%;
+}
+body p {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px;
+}
+body h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 18px;
+  text-align: center;
+  color: #FF8FA3;
+}
+body .img2 {
+  width: 60%;
+  margin: auto;
+  display: block;
+  filter: sepia(100%);
+}
+body .img2:hover {
+  transform: scale(1.05);
+  transition: all 0.9s;
+  filter: sepia(0%);
+}
+body .pApren {
+  padding: 20px;
+}
+body .pApren li {
+  padding: 20px;
+  text-align: left;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 15px;
+  color: #590D22;
+}
+body footer {
+  background-color: #C9184A;
+  text-align: center;
+}
+body footer p {
+  font-family: "Satisfy", cursive;
+  color: #FFB3C1;
+  font-size: 14px;
+}
+body footer i {
+  font-size: 30px;
+  letter-spacing: 30px;
+  color: #FF758F;
+}
+body footer i:hover {
+  color: #590D22;
+}
+
+@media screen and (max-width: 1024px) {
+  body .navBar {
+    font-size: 40px;
+  }
+  body .navbar-brand {
+    font-size: 40px;
+  }
+  body .logoTitulo {
+    font-size: 45px;
+  }
+  body .imgLogo {
+    height: 80px;
+    width: 100px;
+    border-radius: 30%;
+  }
+  body .nav-link {
+    font-size: 35px;
+  }
+  body h1 {
+    font-size: 65px;
+  }
+  body h3 {
+    font-size: 35px;
+  }
+  body p {
+    font-size: 25px;
+  }
+  body h2 {
+    font-size: 35px;
+  }
+  body .pApren {
+    padding: 30px;
+  }
+  body .pApren li {
+    padding: 30px;
+    font-size: 25px;
+  }
+  body footer p {
+    font-size: 35px;
+  }
+  body footer i {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 2000px) {
+  body .navBar {
+    font-size: 45px;
+  }
+  body .navbar-brand {
+    font-size: 45px;
+  }
+  body .logoTitulo {
+    font-size: 50px;
+  }
+  body .imgLogo {
+    height: 90px;
+    width: 150px;
+    border-radius: 40%;
+  }
+  body .nav-link {
+    font-size: 45px;
+  }
+  body h1 {
+    font-size: 95px;
+    animation-duration: 8s;
+  }
+  body h3 {
+    font-size: 60px;
+    padding: 50px;
+  }
+  body p {
+    font-size: 45px;
+    padding: 40px;
+  }
+  body h2 {
+    font-size: 60px;
+  }
+  body .pApren {
+    padding: 40px;
+  }
+  body .pApren li {
+    padding: 40px;
+    font-size: 40px;
+  }
+  body footer p {
+    font-size: 60px;
+  }
+  body footer i {
+    font-size: 50px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
