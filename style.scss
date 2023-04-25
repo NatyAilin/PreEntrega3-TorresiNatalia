@@ -321,17 +321,21 @@ body{
             width: 100%;
         }
 
+        .imgR8{
+            width: 100%;
+        }
+
         .recetaTitle{
             font-family: $fuenteotroTitulo;
             text-align: center;
-            font-size: 35px;
+            font-size: 40px;
             color: #FFCCD5;
         }
         
         h4{
             font-family: $fuenteotroTitulo;
             color: #FFCCD5;
-            font-size: 25px;
+            font-size: 30px;
         }
 
         li{
@@ -349,6 +353,7 @@ body{
     }
 }
 
+// Inicio Otras Recetas
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
@@ -502,6 +507,32 @@ body{
         }
     }
 
+    body{
+
+        .recetaS{
+
+            .recetaTitle{
+                font-size: 60px;
+            }
+            
+            h4{
+                font-size: 50px;
+            }
+    
+            li{
+
+                    font-size: 30px;
+            }
+            
+        }
+    
+        footer{
+            .pieDulce{
+                font-size: 40px;
+            }
+        }
+    }
+
 }
 
 
@@ -651,6 +682,32 @@ body{
             
         }
 
+        footer{
+            .pieDulce{
+                font-size: 60px;
+            }
+        }
+    }
+
+    body{
+
+        .recetaS{
+
+            .recetaTitle{
+                font-size: 90px;
+            }
+            
+            h4{
+                font-size: 70px;
+            }
+    
+            li{
+
+                    font-size: 50px;
+            }
+            
+        }
+    
         footer{
             .pieDulce{
                 font-size: 60px;

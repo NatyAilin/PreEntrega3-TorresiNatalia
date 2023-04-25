@@ -245,16 +245,19 @@ body .recetaS .receta {
 body .recetaS .imgR7 {
   width: 100%;
 }
+body .recetaS .imgR8 {
+  width: 100%;
+}
 body .recetaS .recetaTitle {
   font-family: "Satisfy", cursive;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   color: #FFCCD5;
 }
 body .recetaS h4 {
   font-family: "Satisfy", cursive;
   color: #FFCCD5;
-  font-size: 25px;
+  font-size: 30px;
 }
 body .recetaS li {
   font-family: "M PLUS 1p", sans-serif;
@@ -365,6 +368,18 @@ body footer .pieDulce {
   body footer .pieDulce {
     font-size: 45px;
   }
+  body .recetaS .recetaTitle {
+    font-size: 60px;
+  }
+  body .recetaS h4 {
+    font-size: 50px;
+  }
+  body .recetaS li {
+    font-size: 30px;
+  }
+  body footer .pieDulce {
+    font-size: 40px;
+  }
 }
 @media screen and (min-width: 1024px) and (max-width: 2000px) {
   body .navBar {
@@ -459,4 +474,16 @@ body footer .pieDulce {
   body footer .pieDulce {
     font-size: 60px;
   }
-}/*# sourceMappingURL=style.css.map */
+  body .recetaS .recetaTitle {
+    font-size: 90px;
+  }
+  body .recetaS h4 {
+    font-size: 70px;
+  }
+  body .recetaS li {
+    font-size: 50px;
+  }
+  body footer .pieDulce {
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=style.css.map */*/
