@@ -311,7 +311,7 @@ body{
         .receta{
             min-height: 400px;
             width: 100%;
-            background-color: #A4133C;
+            background-color: #FF4D6D;
             border: 15px solid #FFB3C1;
             animation: tada;
             animation-duration: 2s;
@@ -354,6 +354,64 @@ body{
 }
 
 // Inicio Otras Recetas
+
+body{
+
+    .recetaO{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+
+        .cardOtro{
+            min-height: 400px;
+            width: 100%;
+            background-color: #800F2F;
+            border: 10px solid #FFB3C1;
+            animation: slideInRight;
+            animation-duration: 2s;
+        }
+
+        .card__Img9{
+            background-image: url(./asset/img/img9.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+        }
+
+        .card__Img10{
+            background-image: url(./asset/img/img10.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+        }
+
+        .card__Title{
+            font-family: $fuenteotroTitulo;
+            text-align: center;
+            font-size: 35px;
+            color: #FFCCD5;
+        }
+
+        h4{
+            font-family: $fuenteotroTitulo;
+            color: #FFCCD5;
+            font-size: 25px;
+
+            li{
+                font-family: $fuenteParrafo;
+                color: black;
+                font-size: 20px;
+            }
+        }
+        
+    }
+
+    footer{
+        .pieDulce{
+            font-size: 35px;
+        }
+    }
+}
 
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 
@@ -533,6 +591,41 @@ body{
         }
     }
 
+    body{
+
+        .recetaO{
+            padding: 40px;
+    
+            .card__Img9{
+                width: 100%;
+                height: 400px;
+            }
+    
+            .card__Img10{
+                width: 100%;
+                height: 400px;
+            }
+    
+            .card__Title{
+                font-size: 45px;
+            }
+    
+            h4{
+                font-size: 35px;
+    
+                li{
+                    font-size: 25px;
+                }
+            }
+            
+        }
+    
+        footer{
+            .pieDulce{
+                font-size: 40px;
+            }
+        }
+    }
 }
 
 
@@ -714,5 +807,42 @@ body{
             }
         }
     }
+
+    body{
+
+        .recetaO{
+            padding: 50px;
+    
+            .card__Img9{
+                width: 100%;
+                height: 700px;
+            }
+    
+            .card__Img10{
+                width: 100%;
+                height: 700px;
+            }
+    
+            .card__Title{
+                font-size: 80px;
+            }
+    
+            h4{
+                font-size: 60px;
+    
+                li{
+                    font-size: 35px;
+                }
+            }
+            
+        }
+    
+        footer{
+            .pieDulce{
+                font-size: 60px;
+            }
+        }
+    }
+
 
 }
